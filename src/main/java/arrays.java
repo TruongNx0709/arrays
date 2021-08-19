@@ -33,15 +33,14 @@ public class arrays {
         int numberMax = findMax(a);
         System.out.println("Số lớn nhất trong mảng là: " + numberMax);
         // Bài 4 : ----------------------------------------
-        Scanner input = new Scanner(System.in);
         System.out.println("Nhập vào số dòng muốn tính tổng: ");
-        int x = input.nextInt();
+        int x1 = input.nextInt();
         System.out.println("Nhập vào số cột muốn tính tổng: ");
         int y = input.nextInt();
         System.out.println("Mảng random: ");
         printMatrix(a);
         System.out.println("==============");
-        int sumD = sumRowD(a, x);
+        int sumD = sumRowD(a, x1);
         int sumC = sumColC(a, y);
         System.out.println("Tổng các phần tử trên dòng d là: " + sumD);
         System.out.println("Tổng các phần tử trên cột d là: " + sumC);
